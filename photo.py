@@ -2,9 +2,9 @@ from telethon import TelegramClient, events, sync
 import os,random
 from PIL import Image
 #انضم عزيزي @xxfix
-api_id = 11111111
-api_hash = ""
-client = TelegramClient(f'session_name', api_id, api_hash).start(bot_token="token")
+api_id = 24199929
+api_hash = "983b603f3b8b3e6ea569302df6ad859a"
+client = TelegramClient(f'session_name', api_id, api_hash).start(bot_token="7317731120:AAGU7xy0SHvl1P3T02tjMTH57n3JTAlb14s")
 
 def ze(inp, ou, iz):
     with Image.open(inp) as image:
